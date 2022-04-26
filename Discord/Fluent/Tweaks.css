@@ -19,8 +19,8 @@ code {
 }
 
 /* Hide some things from view */
-#app-mount .buttons-uaqb-5 > *:nth-child(4),
-#app-mount .buttons-uaqb-5 > *:nth-child(2),
+#app-mount .buttons-uaqb-5 > *:nth-child(1),
+#app-mount .buttons-uaqb-5 > *:nth-child(3),
 [class*="pictureInPicture"],
 [href="/store"],
 .unread-36eUEm {
