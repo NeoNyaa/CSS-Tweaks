@@ -144,3 +144,11 @@ code {
 .replyBar-1oi75v {
     border-bottom: solid 1px var(--btn-border-t);
 }
+
+/* Message width adjustments */
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg .messageContent-2t3eCI:not(:empty) {
+    width: 80%;
+}
+#app-mount .cozy-VmLDNB.groupStart-3Mlgv1 .contents-2MsGLg {
+    width: 90%;
+}
