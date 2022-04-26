@@ -92,6 +92,20 @@ code {
     background: var(--chat-bubble-bg);
 }
 
+/* Users own message styling tweaks */
+#app-mount .cozy-VmLDNB[data-is-author-self=true] .contents-2MsGLg {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    background: rgb(var(--accent), 0.05);
+}
+#app-mount .cozy-VmLDNB[data-is-author-self=true] .contents-2MsGLg > .messageContent-2t3eCI {
+    background: transparent;
+}
+.searchResult-O9NDji .header-2jRmjb {
+    background: var(--bg-alt) !important;
+}
+
 /* Search modal position tweaks */
 .searchResult-O9NDji {
     padding-left: 5px;
