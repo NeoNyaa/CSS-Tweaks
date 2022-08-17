@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           ~steamcommunity.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Tweaks to the steamcommunity.com webpage
+@author         Neopolitan
+==/UserStyle== */
+
+@-moz-document domain("steamcommunity.com") {
+    .progressText { position: absolute; margin-right: 6px; margin-top: -20px; right: 0; color: #fff !important; text-shadow: 0 0 2px #000; }
+    .achievementProgressBar { max-width: unset !important; }
+    .achieveTxt.withProgress { width: 100%; }
+    .achieveImgHolder { top: unset !important; }    
+}
