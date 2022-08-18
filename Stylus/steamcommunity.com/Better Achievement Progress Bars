@@ -1,0 +1,27 @@
+/* ==UserStyle==
+@name           Better Achievement Progress Bars
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0
+@description    Uniforms the achievement progress bars
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("steamcommunity.com") {
+    .progressText {
+        position: absolute;
+        margin-right: 6px;
+        margin-top: -20px;
+        right: 0;
+        color: #fff !important;
+        text-shadow: 0 0 2px #000;
+    }
+
+    .achievementProgressBar {
+        max-width: unset !important;
+    }
+
+    .achieveTxt.withProgress {
+        width: 100%;
+    }
+}
