@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Remove Blacklisted Image Boxes
 @namespace      github.com/Neop0litan/CSS-Tweaks
-@version        1.0
+@version        1.1
 @description    Hides the blacklisted image box rather than leaving it there.
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document domain("") {
+@-moz-document domain("rule34.xxx") {
     span.blacklisted-image {
         display: none;
     }
