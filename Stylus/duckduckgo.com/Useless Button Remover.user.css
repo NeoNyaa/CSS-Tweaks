@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Useless button remover
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Removes the feedback button, speakerphone button and the showcase button.
+@author         Neopolitan#0002
+==/UserStyle== */
+
+@-moz-document domain("duckduckgo.com") {
+    [data-type="showcase"], [data-type="social"], .feedback-btn {
+        display: none;
+    }
+}
