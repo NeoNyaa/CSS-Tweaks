@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Always Visible Tools
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0
+@description    Forces the colors and tools to always be visible. (Doesn't allow drawing on other peoples turns)
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("skribbl.io") {
+    .containerToolbar {
+        display: flex !important;
+    }
+}
