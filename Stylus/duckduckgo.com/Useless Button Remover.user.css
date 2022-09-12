@@ -8,7 +8,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("duckduckgo.com") {
-    [data-type="showcase"], [data-type="social"], .feedback-btn, #content_homepage > div > div:last-child {
+    [data-type="showcase"], [data-type="social"], .feedback-btn, #content_homepage > div > div:last-child, .tag-home {
         display: none;
     }
 }
