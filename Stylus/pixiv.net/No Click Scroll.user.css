@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           No CLick Scroll
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0
+@description    Removes the ability to click at the top or bottom of an image to scroll to the next or previous image.
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.pixiv.net/en/artworks"), url-prefix("http://www.pixiv.net/en/artworks") {
+    .sc-691snt-0,
+    .sc-1oz5uvo-4,
+    .sc-1oz5uvo-2 {
+        display: none;
+    }
+}
