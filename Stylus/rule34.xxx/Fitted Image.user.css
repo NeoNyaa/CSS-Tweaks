@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name           Fitted Image
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0
+@description    Scales the image down so it fits both vertically and horizontally. (FOr long comic strips you may need to open the image in a new tab)
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document url_prefix("https://rule34.xxx/index.php?page=post&s=view"), url_prefix("http://rule34.xxx/index.php?page=post&s=view") {
+    #image,
+    #gelcomVideoContainer > * > video {
+        display: block;
+        width: auto;
+        height: auto;
+        max-width: 100%;
+    }
+
+    #image,
+    #gelcomVideoContainer > * > video {
+        max-height: 90vh;
+    }
+}
