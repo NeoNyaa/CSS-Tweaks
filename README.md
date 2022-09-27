@@ -1,8 +1,8 @@
 # CSS-Tweaks
-This is a place where I will upload any tweaks I make to a page I deem worthy to be public.  
-I usually make these when I notice something small such as text being misaligned by a few pixels or because what was done initially was so awful.
+This repository is where I upload any tweaks I make to a webpage I think people could benefit from.  
+I typically create them to fix inconsistencies or general design failiures on a given webpage.
 
-I highly suggest that you use the extension Stylus as it will make installing and managing these styles significantly easier. You can get it from either of the links below:  
+I highly suggest that you use the extension Stylus as it will make installing and managing these styles possible, if not, significantly easier. You can get Stylus from the links below depending on your browser:  
 [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)  
 [Stylus for Chrome/Chromium based browsers](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
 
