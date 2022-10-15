@@ -1,15 +1,14 @@
 /* ==UserStyle==
-@name           Legible Mindfulness Mode
+@name           Growing Scrollbar Fix
 @namespace      github.com/Neop0litan/CSS-Tweaks
-@version        1.1
-@description    Gives the text on mindfulness mode a black background making it easier to read.
+@version        1.0
+@description    Fixes the scrollbars from showing when the image is zooming in during mindfulness mode.
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://inspirobot.me/mindfulnessmode"), url-prefix("http://inspirobot.me/mindfulnessmode") {
-    .inspiroflow_text {
-        background: #000 !important;
-        padding: 0 8px;
+    html {
+        overflow: hidden !important;
     }
 }
