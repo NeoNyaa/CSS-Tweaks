@@ -4,3 +4,5 @@ Each style contains a brief description of its function. If you are unsure as to
 
 [Install "Remove Blacklisted Image Boxes.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/rule34.xxx/Remove%20Blacklisted%20Image%20Boxes.user.css)  
 [Install "Image Within Viewport.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/rule34.xxx/Image%20Within%20Viewport.user.css)  
+[Install "Padded Sidebar.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/rule34.xxx/Padded%20Sidebar.user.css)  
+[Install "Consistant Tag Count Colors.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/rule34.xxx/Consistant%20Tag%20Count%20Colors.user.css)  
