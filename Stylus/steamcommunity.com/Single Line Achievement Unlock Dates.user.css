@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Single Line Achievement Unlock Dates
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0
+@description    Adds a max width to the achievement text to prevent the unlock date from going onto a new line.
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("steamcommunity.com") {
+    .achieveTxt {
+        max-width: 70%;
+    }
+}
