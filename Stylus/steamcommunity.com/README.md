@@ -4,4 +4,4 @@ Each style contains a brief description of its function. If you are unsure as to
 
 [Install "Better Achievement Progress Bars.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/steamcommunity.com/Better%20Achievement%20Progress%20Bars.user.css)  
 [Install "Achievement Icon Vertical Alignment Fix.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/steamcommunity.com/Achievement%20Icon%20Vertical%20Alignment%20Fix.user.css)  
-[Install "Achievement Icon Vertical Alignment Fix.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/steamcommunity.com/Single%20Line%20Achievement%20Unlock%20Dates.user.css)
+[Install "Single Line Achievement Unlock Dates.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/steamcommunity.com/Single%20Line%20Achievement%20Unlock%20Dates.user.css)
