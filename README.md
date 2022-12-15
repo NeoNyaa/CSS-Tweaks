@@ -4,7 +4,8 @@ I typically create them to fix inconsistencies or general design flaws on a give
 
 I highly suggest that you use the extension Stylus as it will make installing and managing these styles possible, if not, significantly easier. You can get Stylus from the links below depending on your browser:  
 [Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)  
-[Stylus for Chrome/Chromium based browsers](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)
+[Stylus for Chrome/Chromium based browsers](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)  
+[Stylus for Opera/OperaGX](https://addons.opera.com/extensions/details/stylus/)
 
 ## Installation of styles
 1. Navigate to the folder containing the style you would like to install.
