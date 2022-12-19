@@ -19,7 +19,8 @@
         }
 
         .caption-window {
-                background: none !important;
+            background: none !important;
+            width: auto !important;
         }
 
         if captionUniformBackground {
