@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name           Larger Progress Bar
+@name           Spotify - Larger Progress Bar
 @namespace      github.com/openstyles/stylus
-@version        1.2
+@version        1.3
 @description    Positions the progress bar above the control bar and scales it with the page width
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
@@ -15,15 +15,15 @@
         padding: 10px 0 8px 0;
         outline: 1px solid #282828;
     }
-    
+
     .NoOAOv6U6vtqj_ybS1Cd {
         margin-top: -1px;
     }
-    
+
     .GD2gbRtcs5dOjMGAM_Y4 {
         border: none;
     }
-    
+
     .epWhU7hHGktzlO_dop6z {
         transition: cubic-bezier(0, 1, 1, 1) .3s;   
     }
