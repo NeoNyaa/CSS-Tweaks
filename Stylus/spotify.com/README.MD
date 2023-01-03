@@ -4,4 +4,5 @@ Each style contains a brief description of its function. If you are unsure as to
 
 [Install "Remove Upgrade To Premium Button.user.css" for Stylus](https://github.com/Neop0litan/CSS-Tweaks/raw/main/Stylus/spotify.com/Remove%20Upgrade%20To%20Premium%20Button.user.css)  
 [Install "Remove Download App Button.user.css" for stylus](https://github.com/Neop0litan/CSS-Tweaks/raw/main/Stylus/spotify.com/Remove%20Install%20App%20Button.user.css)  
-[Install "Restore Top Navbar Background.user.css" for stylus](https://github.com/Neop0litan/CSS-Tweaks/raw/main/Stylus/spotify.com/Restore%20Top%20Navbar%20Background.user.css)
+[Install "Restore Top Navbar Background.user.css" for stylus](https://github.com/Neop0litan/CSS-Tweaks/raw/main/Stylus/spotify.com/Restore%20Top%20Navbar%20Background.user.css)  
+[Install "Larger Progress Bar.user.css" for stylus](https://github.com/Neop0litan/CSS-Tweaks/raw/main/Stylus/spotify.com/Larger%20Progress%20Bar.user.css)
