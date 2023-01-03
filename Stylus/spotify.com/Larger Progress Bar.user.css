@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Larger Progress Bar
 @namespace      github.com/openstyles/stylus
-@version        1.0
+@version        1.1
 @description    Positions the progress bar above the control bar and scales it with the page width
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
@@ -22,5 +22,9 @@
     
     .GD2gbRtcs5dOjMGAM_Y4 {
         border: none;
+    }
+    
+    .player-controls__buttons--new-icons {
+        margin-bottom: 0px;
     }
 }
