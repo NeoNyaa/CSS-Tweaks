@@ -10,7 +10,7 @@ I highly suggest that you use the extension Stylus as it will make installing an
 ## Installation of styles
 1. Navigate to the folder containing the style you would like to install.
 2. Find the name of the style you would like to install in the README at the bottom of page and click its link.
-4. Click install style on the Stylus window that shows.
+3. Click install style on the Stylus window that shows.
 
 ## Notes
 1. Each style contains a brief description of its function. If you are unsure as to what each style does, the description should help clear it up somewhat. If you still don't have an idea of a styles function, you can always give the style a try and remove it if you don't notice anything or if you don't like the changes it makes.  
