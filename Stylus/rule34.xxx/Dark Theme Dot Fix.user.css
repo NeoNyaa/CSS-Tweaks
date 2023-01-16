@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Rule34.xxx - Dark Theme Dot Fix
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0
+@description    Hides the light theme colored dot in the top left corner of the navbar.
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("rule34.xxx"), url-prefix("http://rule34.xxx/index.php?page=post&s=view") {
+    #header > input {
+        display: none;
+    }
+}
