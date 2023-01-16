@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Gelbooru.com - Advert Hider
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0
+@description    Hides advert elements. This also effects residual containers for those adverts which take space.
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document url-prefix("https://docs.google.com/forms") {
+    [style="max-width: 1000px; height: 100px;"] {
+        display: none;
+    }
+}
