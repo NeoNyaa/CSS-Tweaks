@@ -9,3 +9,4 @@ Each style contains a brief description of its function. If you are unsure as to
 [Install "Navbar Link Toggler.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/rule34.xxx/Navbar%20Link%20Toggler.user.css)  
 [Install "Dark Theme Dot Fix.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/rule34.xxx/Dark%20Theme%20Dot%20Fix.user.css)  
 [Install "Better Upload Forms.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/rule34.xxx/Better%20Upload%20Forms.user.css)  
+[Install "No Homepage YouTube Video.user.css" for Stylus](https://github.com/Neop0litan/CSS-Tweaks/raw/main/Stylus/rule34.xxx/No%20Homepage%20YouTube%20Video.user.css)  
