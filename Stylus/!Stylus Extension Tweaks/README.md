@@ -4,4 +4,4 @@ Each style contains a brief description of its function. If you are unsure as to
 
 ##This folder is for tweaks pertaining to the stylus extension itself.
 
-[Install "Custom YouTube Caption Colors.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/whatsapp.com/Full%20Size%20WhatsApp.user.css)  
+[Install "Word Wrapped Install Descriptions.user.css" for Stylus](https://raw.githubusercontent.com/Neop0litan/CSS-Tweaks/main/Stylus/%21Stylus%20Extension%20Tweaks/Word%20Wrapped%20Install%20Descriptions.user.css)  
