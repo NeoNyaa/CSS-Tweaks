@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Rule34.xxx - No Homepage YouTube Video
 @namespace      github.com/Neop0litan/CSS-Tweaks
-@version        1.4.0
+@version        1.5.0
 @description    Removes the YouTube videos that are shown on the front page every now and again
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://rule34.xxx"), url-prefix("http://rule34.xxx") {
+@-moz-document regexp("(http|https):\/\/rule34\.xxx[\/]?") {
     iframe[src*="youtube"] {
         display: none;
     }

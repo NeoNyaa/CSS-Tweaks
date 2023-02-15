@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Rule34.xxx - Better Upload Forms
 @namespace      github.com/Neop0litan/CSS-Tweaks
-@version        1.1.0
+@version        1.2.0
 @description    General changes to the upload page making it less messy and easier to work with.
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document url("https://rule34.xxx/index.php?page=post&s=add"), url("http://rule34.xxx/index.php?page=post&s=add"), url("https://rule34.xxx/index.php?page=post&s=addVideo"), url("http://rule34.xxx/index.php?page=post&s=addVideo") {
+@-moz-document regexp("(http|https):\/\/rule34\.xxx\/index\.php\?page=post&s=(addVideo|add)") {
     tbody > tr:nth-child(1),
     tbody > tr:last-child > td > b {
         display: none;
@@ -50,7 +50,7 @@
     }
 }
 
-@-moz-document url("https://rule34.xxx/index.php?page=post&s=addVideo"), url("http://rule34.xxx/index.php?page=post&s=addVideo") {
+@-moz-document regexp("(http|https):\/\/rule34\.xxx\/index\.php\?page=post&s=addVideo") {
     tbody > tr:nth-child(4) > td > br:nth-child(3) {
         display: none;
     }
