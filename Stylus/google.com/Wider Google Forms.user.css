@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name           Google.com - Wider Google Forms
 @namespace      github.com/Neop0litan/CSS-Tweaks
-@version        1.4.0
+@version        1.5.0
 @description    Unlocks the width of google forms without the content spilling out.
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://docs.google.com/forms") {
+@-moz-document regexp("(http|https):\\/\\/docs.google.com/forms/.*") {
     .teQAzf {
-        width: unset;
+        width: 90%;
     }
 }
