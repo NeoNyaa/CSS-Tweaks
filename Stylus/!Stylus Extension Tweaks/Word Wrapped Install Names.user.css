@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           !Stylus Extension Tweaks - Word Wrapped Install Names
+@namespace      github.com/Neop0litan/CSS-Tweaks
+@version        1.0.0
+@description    Makes words in the name of a style present in the install style window wrap onto new lines when cut off.
+@author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/Neop0litan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document regexp("(chrome|moz)-extension:\/\/.*") {
+    #stylus-install-usercss .meta-name {
+        word-break: break-word;
+    }
+}
