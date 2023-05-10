@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Youtube.com - Custom YouTube Caption Colors
 @namespace      github.com/Neop0litan/CSS-Tweaks
-@version        1.4.0
+@version        1.4.1
 @description    Allows the user to customize the colors of the YouTube captions.
 @author         Neopolitan#0002 (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/Neop0litan/CSS-Tweaks
@@ -14,18 +14,21 @@
 
 @-moz-document domain("youtube.com") {
     .ytp-caption-segment {
-            background: captionBackgroundColor !important;
-            color: captionTextColor !important;
-        }
+        background: captionBackgroundColor !important;
+        color: captionTextColor !important;
+    }
 
+    .caption-window {
+        background: none !important;
+        width: auto !important;
+    }
+
+    if captionUniformBackground {
         .caption-window {
-            background: none !important;
-            width: auto !important;
+            background: captionBackgroundColor !important;
         }
-
-        if captionUniformBackground {
-            .caption-window {
-                background: captionBackgroundColor !important;
-            }
+        .ytp-caption-segment {
+            background: none !important;
         }
     }
+}
