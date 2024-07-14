@@ -4,12 +4,13 @@
 @version		1.1.0
 @description	Hides shorts on the YouTube recommended page
 @author			neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document regexp("(http|https)://www.youtube.com/") {
+@-moz-document regexp("(http|https)://www.youtube.com/")
+{
 	ytd-rich-section-renderer:has(> #content > ytd-rich-shelf-renderer[is-shorts]),
-    ytd-rich-item-renderer:has(> #content > ytd-rich-grid-slim-media[is-short]) {
+	ytd-rich-item-renderer:has(> #content > ytd-rich-grid-slim-media[is-short]) {
 		display: none;
 	}
 }

@@ -4,7 +4,7 @@
 @version		1.0.1
 @description	Hides the stupid overlay that shows up when using an adblock on emoji.gg (they gave the overlay an ID of yousuck :/)
 @author			neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("emoji.gg") {

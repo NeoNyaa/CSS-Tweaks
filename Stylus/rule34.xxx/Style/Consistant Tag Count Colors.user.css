@@ -4,18 +4,18 @@
 @version        1.5.1
 @description    Forces the tag count color to the one used for general tags.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("rule34.xxx") {
-    .tag-type-copyright,
-    .tag-type-character,
-    .tag-type-artist,
-    .tag-type-metadata {
-        color: inherit !important;
-    }
+	.tag-type-copyright,
+	.tag-type-character,
+	.tag-type-artist,
+	.tag-type-metadata {
+		color: inherit !important;
+	}
 
-    .tag-count {
-        color: unset;
-    }
+	.tag-count {
+		color: unset;
+	}
 }

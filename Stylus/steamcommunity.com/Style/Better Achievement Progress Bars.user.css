@@ -4,23 +4,23 @@
 @version        1.3.1
 @description    Uniforms the achievement progress bars
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("steamcommunity.com") {
-    .progressText {
-        position: absolute;
-        margin-right: 6px;
-        margin-top: -20px;
-        right: 0;
-        color: #fff !important;
-    }
+	.progressText {
+		position: absolute;
+		margin-right: 6px;
+		margin-top: -20px;
+		right: 0;
+		color: #fff !important;
+	}
 
-    .achievementProgressBar {
-        max-width: unset !important;
-    }
+	.achievementProgressBar {
+		max-width: unset !important;
+	}
 
-    .achieveTxt.withProgress {
-        width: 100%;
-    }
+	.achieveTxt.withProgress {
+		width: 100%;
+	}
 }

@@ -4,11 +4,12 @@
 @version        1.5.1
 @description    Fixes the scrollbars from showing when the image is zooming in during mindfulness mode.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document regexp("(http|https)://inspirobot.me/mindfulnessmode.*") {
-    html {
-        overflow: hidden !important;
-    }
+@-moz-document regexp("(http|https)://inspirobot.me/mindfulnessmode.*")
+{
+	html {
+		overflow: hidden !important;
+	}
 }

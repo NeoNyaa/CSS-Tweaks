@@ -4,12 +4,13 @@
 @version        1.6.1
 @description    Gives the text on mindfulness mode a black background making it easier to read.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document regexp("(http|https)://inspirobot.me/mindfulnessmode.*") {
-    .inspiroflow_text {
-        background: #000 !important;
-        padding: 0 8px;
-    }
+@-moz-document regexp("(http|https)://inspirobot.me/mindfulnessmode.*")
+{
+	.inspiroflow_text {
+		background: #000 !important;
+		padding: 0 8px;
+	}
 }

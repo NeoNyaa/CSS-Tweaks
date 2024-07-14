@@ -4,31 +4,31 @@
 @version        1.6.1
 @description    Positions the progress bar above the control bar and scales it with the page width
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("open.spotify.com") {
-    .playback-bar {
-        position: absolute;
-        margin-bottom: 128px;
-        background: #181818;
-        padding: 10px 0 8px 0;
-        outline: 1px solid #282828;
-    }
+	.playback-bar {
+		position: absolute;
+		margin-bottom: 128px;
+		background: #181818;
+		padding: 10px 0 8px 0;
+		outline: 1px solid #282828;
+	}
 
-    .NoOAOv6U6vtqj_ybS1Cd {
-        margin-top: -1px;
-    }
+	.NoOAOv6U6vtqj_ybS1Cd {
+		margin-top: -1px;
+	}
 
-    .GD2gbRtcs5dOjMGAM_Y4 {
-        border: none;
-    }
+	.GD2gbRtcs5dOjMGAM_Y4 {
+		border: none;
+	}
 
-    .epWhU7hHGktzlO_dop6z {
-        transition: cubic-bezier(0, 1, 1, 1) .3s;
-    }
+	.epWhU7hHGktzlO_dop6z {
+		transition: cubic-bezier(0, 1, 1, 1) 0.3s;
+	}
 
-    .player-controls__buttons--new-icons {
-        margin-bottom: 0px;
-    }
+	.player-controls__buttons--new-icons {
+		margin-bottom: 0px;
+	}
 }

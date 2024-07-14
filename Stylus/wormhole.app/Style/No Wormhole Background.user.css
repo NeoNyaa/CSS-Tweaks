@@ -4,15 +4,15 @@
 @version        1.0.0
 @description    Removes the wormhole background image and makes the resulting background a little darker
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("wormhole.app") {
-    canvas {
-        display: none;
-    }
+	canvas {
+		display: none;
+	}
 
-    .chakra-ui-dark {
-        background: #101010;
-    }
+	.chakra-ui-dark {
+		background: #101010;
+	}
 }

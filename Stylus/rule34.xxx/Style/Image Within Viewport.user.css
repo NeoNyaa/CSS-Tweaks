@@ -4,17 +4,18 @@
 @version        2.2.1
 @description    Scales the content down so it fits within the viewport horizontally.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document regexp("(http|https)://rule34.xxx/index.php\?page=post&s=view.*") {
-    #image,
-    #gelcomVideoContainer > * > video {
-        max-width: 100%;
-        height: auto;
-    }
+@-moz-document regexp("(http|https)://rule34.xxx/index.php\?page=post&s=view.*")
+{
+	#image,
+	#gelcomVideoContainer > * > video {
+		max-width: 100%;
+		height: auto;
+	}
 
-    #gelcomVideoContainer {
-        max-width: unset !important
-    }
+	#gelcomVideoContainer {
+		max-width: unset !important;
+	}
 }

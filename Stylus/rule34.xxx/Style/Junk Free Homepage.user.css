@@ -4,15 +4,16 @@
 @version        1.8.1
 @description    Removes all the stupid promotional stuff from the homepage, leaving it with everything that SHOULD be there.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document regexp("(http|https)://rule34.xxx[/]?") {
-    #content > *:not(#static-index) {
-        display: none;
-    }
+@-moz-document regexp("(http|https)://rule34.xxx[/]?")
+{
+	#content > *:not(#static-index) {
+		display: none;
+	}
 
-    #content {
-        display: block;
-    }
+	#content {
+		display: block;
+	}
 }

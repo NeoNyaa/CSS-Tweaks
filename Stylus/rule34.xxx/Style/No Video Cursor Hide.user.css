@@ -4,11 +4,12 @@
 @version        1.4.1
 @description    Prevents the video player hiding the cursor when hovering over the video itself
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document regexp("(http|https)://rule34.xxx/index.php\?page=post&s=view.*") {
-    #gelcomVideoPlayer {
-        cursor: default !important;
-    }
+@-moz-document regexp("(http|https)://rule34.xxx/index.php\?page=post&s=view.*")
+{
+	#gelcomVideoPlayer {
+		cursor: default !important;
+	}
 }

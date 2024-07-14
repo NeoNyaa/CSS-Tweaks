@@ -4,7 +4,7 @@
 @version        1.3.1
 @description    Allows the user to hide specific links in the navbar
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 
 @preprocessor stylus
 @var checkbox myAccount "Hide the \"My Account\" link: " 0
@@ -26,99 +26,99 @@
 ==/UserStyle== */
 
 @-moz-document domain("rule34.xxx") {
-    if myAccount {
-        #navbar>li:nth-child(1) {
-            display: none !important;
-        }
-    }
+	if myAccount {
+		#navbar > li:nth-child(1) {
+			display: none !important;
+		}
+	}
 
-    if posts {
-        #navbar>li:nth-child(2) {
-            display: none !important;
-        }
-    }
+	if posts {
+		#navbar > li:nth-child(2) {
+			display: none !important;
+		}
+	}
 
-    if comments {
-        #navbar>li:nth-child(3) {
-            display: none !important;
-        }
-    }
+	if comments {
+		#navbar > li:nth-child(3) {
+			display: none !important;
+		}
+	}
 
-    if wiki {
-        #navbar>li:nth-child(4) {
-            display: none !important;
-        }
-    }
+	if wiki {
+		#navbar > li:nth-child(4) {
+			display: none !important;
+		}
+	}
 
-    if aliases {
-        #navbar>li:nth-child(5) {
-            display: none !important;
-        }
-    }
+	if aliases {
+		#navbar > li:nth-child(5) {
+			display: none !important;
+		}
+	}
 
-    if artists {
-        #navbar>li:nth-child(6) {
-            display: none !important;
-        }
-    }
+	if artists {
+		#navbar > li:nth-child(6) {
+			display: none !important;
+		}
+	}
 
-    if tags {
-        #navbar>li:nth-child(7) {
-            display: none !important;
-        }
-    }
+	if tags {
+		#navbar > li:nth-child(7) {
+			display: none !important;
+		}
+	}
 
-    if pools {
-        #navbar>li:nth-child(8) {
-            display: none !important;
-        }
-    }
+	if pools {
+		#navbar > li:nth-child(8) {
+			display: none !important;
+		}
+	}
 
-    if forum {
-        #navbar>li:nth-child(9) {
-            display: none !important;
-        }
-    }
+	if forum {
+		#navbar > li:nth-child(9) {
+			display: none !important;
+		}
+	}
 
-    if stats {
-        #navbar>li:nth-child(10) {
-            display: none !important;
-        }
-    }
+	if stats {
+		#navbar > li:nth-child(10) {
+			display: none !important;
+		}
+	}
 
-    if gottaSmashEmAll {
-        #navbar>li:nth-child(11) {
-            display: none !important;
-        }
-    }
+	if gottaSmashEmAll {
+		#navbar > li:nth-child(11) {
+			display: none !important;
+		}
+	}
 
-    if iCameTop100 {
-        #navbar>li:nth-child(12) {
-            display: none !important;
-        }
-    }
+	if iCameTop100 {
+		#navbar > li:nth-child(12) {
+			display: none !important;
+		}
+	}
 
-    if help {
-        #navbar>li:nth-child(13) {
-            display: none !important;
-        }
-    }
+	if help {
+		#navbar > li:nth-child(13) {
+			display: none !important;
+		}
+	}
 
-    if discordChat {
-        #navbar>li:nth-child(14) {
-            display: none !important;
-        }
-    }
+	if discordChat {
+		#navbar > li:nth-child(14) {
+			display: none !important;
+		}
+	}
 
-    if store {
-        #navbar>li:nth-child(15) {
-            display: none !important;
-        }
-    }
+	if store {
+		#navbar > li:nth-child(15) {
+			display: none !important;
+		}
+	}
 
-    if otherSites {
-        #navbar>li:nth-child(16) {
-            display: none !important;
-        }
-    }
+	if otherSites {
+		#navbar > li:nth-child(16) {
+			display: none !important;
+		}
+	}
 }

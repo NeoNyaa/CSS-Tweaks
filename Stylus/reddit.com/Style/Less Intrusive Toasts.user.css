@@ -4,17 +4,17 @@
 @version        1.3.1
 @description    Moves all toasts to the far right of the screen and also scales their width according to its contents.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("reddit.com") {
-    ._3q-XSJ2vokDQrvdG6mR__k {
-        left: unset;
-        width: unset;
-    }
+	._3q-XSJ2vokDQrvdG6mR__k {
+		left: unset;
+		width: unset;
+	}
 
-    .trdUvQxqQHHqQKOUBcgnr {
-        width: fit-content;
-        margin-right: 12px;
-    }
+	.trdUvQxqQHHqQKOUBcgnr {
+		width: fit-content;
+		margin-right: 12px;
+	}
 }

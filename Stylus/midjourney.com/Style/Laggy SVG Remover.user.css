@@ -4,12 +4,12 @@
 @version        1.5.1
 @description    Aims to remove all the laggy SVGs responsible for rendering the fancy moving text.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("midjourney.com") {
-    svg[id*="bg"],
-    #bannerSVG {
-        display: none !important;
-    }
+	svg[id*="bg"],
+	#bannerSVG {
+		display: none !important;
+	}
 }

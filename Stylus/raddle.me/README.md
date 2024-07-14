@@ -2,5 +2,5 @@ Below is a list of links to the raw file for each of the styles in the `Style` f
 
 Each style contains a brief description of its function. If you are unsure as to what each style does, the description should help clear it up somewhat. If you still don't have an idea of a styles function, you can always give the style a try and remove it if you don't notice anything or if you don't like the changes it makes.
 
-[Install "Better Full Width Display.user.css" for Stylus](https://gitlab.com/___Neopolitan/CSS-Tweaks/-/raw/main/Stylus/raddle.me/Style/Better%20Full%20Width%20Display.user.css)  
-[Install "Remove Background Images.user.css" for Stylus](https://gitlab.com/___Neopolitan/CSS-Tweaks/-/raw/main/Stylus/raddle.me/Style/Remove%20Background%20Images.user.css)
+[Install "Better Full Width Display.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/raddle.me/Style/Better%20Full%20Width%20Display.user.css)  
+[Install "Remove Background Images.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/raddle.me/Style/Remove%20Background%20Images.user.css)

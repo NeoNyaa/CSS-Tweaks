@@ -4,11 +4,11 @@
 @version        1.2.1
 @description    Reduces the width of the full width display from 100% to 99% to prevent the left and right borders going off the screen.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("raddle.me") {
-    .content-container {
-        width: 99%;
-    }
+	.content-container {
+		width: 99%;
+	}
 }

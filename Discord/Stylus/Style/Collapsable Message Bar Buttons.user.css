@@ -4,7 +4,7 @@
 @version		1.9.4
 @description	Makes the message bar buttons hide unless hovered over, making the message bar cleaner overall, especially when using plugins which add content to this section.
 @author			neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
@@ -18,7 +18,7 @@
 		font-size: 24px;
 		padding: 0 14px 0 6px;
 		user-select: none;
-		transition: .5s ease-in-out;
+		transition: 0.5s ease-in-out;
 		width: 44px;
 	}
 
@@ -32,12 +32,12 @@
 	/* Sets the width of the buttons parent to 44px and gives it some transition animation */
 	[class^="textArea"] + [class^="buttons"] {
 		width: 44px;
-		transition: .5s ease-in-out;
+		transition: 0.5s ease-in-out;
 		max-width: min-content;
 		bottom: 0;
 		right: 0;
 		top: unset;
-	    align-self: self-end;
+		align-self: self-end;
 	}
 
 	/* Set the buttons parent to 100% width when hovered over */

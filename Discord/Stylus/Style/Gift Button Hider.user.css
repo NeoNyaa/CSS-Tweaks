@@ -4,11 +4,11 @@
 @version		1.1.4
 @description    Removes the gift button from the message bar.
 @author			neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-    [class^="textArea"] + [class^="buttons"] > button[class*="lookBlank"] {
-	    display: none !important;
-    }
+	[class^="textArea"] + [class^="buttons"] > button[class*="lookBlank"] {
+		display: none !important;
+	}
 }

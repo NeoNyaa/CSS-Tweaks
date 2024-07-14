@@ -4,12 +4,12 @@
 @version        1.4.1
 @description    Adds a max width to the achievement text to prevent the unlock date from going onto a new line.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("steamcommunity.com") {
-    .achieveUnlockTime {
-        padding-left: 6px;
-        white-space: nowrap;
-    }
+	.achieveUnlockTime {
+		padding-left: 6px;
+		white-space: nowrap;
+	}
 }

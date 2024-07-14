@@ -4,54 +4,53 @@
 @version        1.2.1
 @description    Makes the login page dark and also makes the authorizing apps page easier to use.
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-
 @-moz-document domain("accounts.spotify.com") {
-    html {
-        background: #202020;
-    }
+	html {
+		background: #202020;
+	}
 
-    *:not(input) {
-        color: #fff !important;
-    }
+	*:not(input) {
+		color: #fff !important;
+	}
 
-    .TextForLabel-sc-1jqya9m-0 {
-        margin-top: -2px;
-    }
+	.TextForLabel-sc-1jqya9m-0 {
+		margin-top: -2px;
+	}
 
-    .Checkbox-svpvf6-0 {
-        margin-bottom: -9px;
-    }
+	.Checkbox-svpvf6-0 {
+		margin-bottom: -9px;
+	}
 
-    .kHTWAk:focus::after {
-        border-color: #fff;
-    }
+	.kHTWAk:focus::after {
+		border-color: #fff;
+	}
 
-    .iFfIqr:focus {
-        box-shadow: none;
-    }
+	.iFfIqr:focus {
+		box-shadow: none;
+	}
 
-    .spotify-logo > * {
-        fill: #fff;
-    }
+	.spotify-logo > * {
+		fill: #fff;
+	}
 
-    .jSliMW {
-        border-bottom: none;
-    }
+	.jSliMW {
+		border-bottom: none;
+	}
 
-    .cSypyy {
-        line-height: 0;
-        margin-top: -3px;
-    }
+	.cSypyy {
+		line-height: 0;
+		margin-top: -3px;
+	}
 
-    .jygJyE {
-        background: #202020;
-    }
+	.jygJyE {
+		background: #202020;
+	}
 
-    .List-sc-64p3hb-0 {
-        overflow-y: scroll;
-        max-height: 50vh;
-    }
+	.List-sc-64p3hb-0 {
+		overflow-y: scroll;
+		max-height: 50vh;
+	}
 }

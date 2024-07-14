@@ -4,11 +4,11 @@
 @version        1.3.1
 @description    Forces the colors and tools to always be visible. (Doesn't allow drawing on other peoples turns)
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("skribbl.io") {
-    #game-wrapper:not(.room) > #game-toolbar {
-        visibility: visible !important;
-    }
+	#game-wrapper:not(.room) > #game-toolbar {
+		visibility: visible !important;
+	}
 }

@@ -4,7 +4,7 @@
 @version		1.0.1
 @description	Makes the server statuses on status.epicgames.com more obvious making a quick glance help in determining if they are up or down.
 @author			neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("status.epicgames.com") {
@@ -13,18 +13,18 @@
 	}
 
 	.status-green {
-	    background: #0f03;
+		background: #0f03;
 	}
 
 	.status-blue {
-	    background: #00f3;
+		background: #00f3;
 	}
 
 	.status-yellow {
-	    background: #f903;
+		background: #f903;
 	}
 
 	.status-red {
-	    background: #f003;
+		background: #f003;
 	}
 }

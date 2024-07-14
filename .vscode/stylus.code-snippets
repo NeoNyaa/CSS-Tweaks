@@ -8,13 +8,13 @@
 			"@version\t\t1.0.0",
 			"@description\t",
 			"@author\t\t\tneo.nyaa (https://discord.com/users/427114049487241227)",
-			"@homepageURL\thttps://gitlab.com/___Neopolitan/CSS-Tweaks",
+			"@homepageURL\thttps://github.com/NeoNyaa/CSS-Tweaks",
 			"==/UserStyle== */",
 			"",
 			"@-moz-document domain(\"\") {",
 			"\t",
 			"}"
-			],
+		],
 		"description": "Adds boilerplate stylus metadata"
 	}
 }
