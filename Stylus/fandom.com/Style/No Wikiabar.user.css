@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name			Fandom.com - No Wikiabar
+@namespace		github.com/openstyles/stylus
+@version		1.1.1
+@description	Removes the toolbar at the bottom the the fandom page
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("fandom.com") {
+	#WikiaBar {
+		display: none;
+	}
+}

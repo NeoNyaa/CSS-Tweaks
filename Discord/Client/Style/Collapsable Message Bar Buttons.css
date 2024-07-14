@@ -1,0 +1,36 @@
+/* Create an element which indicates there are more buttons that can be shown when hovered over */
+[class^="textArea"] + [class^="buttons"]:before {
+	content: "⏴";
+	transform: matrix(1.2, 0, 0, 1, 0, 0) translateX(17px);
+	color: var(--interactive-normal);
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	padding: 0 14px 0 6px;
+	user-select: none;
+	transition: .5s ease-in-out;
+	width: 44px;
+}
+
+/* Make the indicator smoothly appear and disappear when hovering over it */
+[class^="textArea"] + [class^="buttons"]:hover:before {
+	color: transparent;
+	width: 0;
+	padding: 0;
+}
+
+/* Sets the width of the buttons parent to 44px and gives it some transition animation */
+[class^="textArea"] + [class^="buttons"] {
+	width: 44px;
+	transition: .5s ease-in-out;
+	max-width: min-content;
+	bottom: 0;
+	right: 0;
+	top: unset;
+    align-self: self-end;
+}
+
+/* Set the buttons parent to 100% width when hovered over */
+[class^="textArea"] + [class^="buttons"]:hover {
+	width: 100%;
+}

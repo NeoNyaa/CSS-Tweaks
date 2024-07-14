@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Gelbooru.com - Advert Hider
+@namespace      github.com/openstyles/stylus
+@version        1.7.2
+@description    Hides advert elements. This also effects residual containers for those adverts which take space.
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("gelbooru.com") {
+    .mainBodyPadding > a:first-child,
+    .mainBodyPadding > br:nth-child(2),
+    .mainBodyPadding > br:nth-child(3),
+    .mainBodyPadding > div:has(ins) {
+        display: none;
+    }
+}

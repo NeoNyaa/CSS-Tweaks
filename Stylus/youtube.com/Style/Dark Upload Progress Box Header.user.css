@@ -1,0 +1,23 @@
+/* ==UserStyle==
+@name			Youtube.com - Dark Upload Progress Box Header
+@namespace		github.com/openstyles/stylus
+@version		1.1.0
+@description	Changes the color of the header for the multi upload progress box to be more in line with the rest of the dark UI.
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("studio.youtube.com") {
+	[dark=""] #dialog.ytcp-multi-progress-monitor {
+        background: none !important;
+    }
+
+    [dark=""] .header.ytcp-multi-progress-monitor {
+        background-color: var(--ytcp-general-background-a);
+        color: var(--ytcp-text-primary) !important;
+    }
+
+    [dark=""] #eta.ytcp-multi-progress-monitor {
+        color: var(--ytcp-text-secondary);
+    }
+}

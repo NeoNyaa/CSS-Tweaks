@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Skribbl.io - Use Custom Words Label Fix
+@namespace      github.com/openstyles/stylus
+@version        1.1.1
+@description    Prevents the checkbox label for "Use Custom Words" from going onto a new line.
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("skribbl.io") {
+    #game-canvas .room .game-room-checkbox label {
+        white-space: nowrap;
+    }
+}

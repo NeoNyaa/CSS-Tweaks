@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           raddle.me - Remove Background Images
+@namespace      github.com/openstyles/stylus
+@version        1.0.1
+@description    Removes the background image which forums can set.
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("raddle.me") {
+	html[dir] {
+    	background-image: none;
+	}
+}

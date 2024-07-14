@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Wormhole.app - No Wormhole Background
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Removes the wormhole background image and makes the resulting background a little darker
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("wormhole.app") {
+    canvas {
+        display: none;
+    }
+
+    .chakra-ui-dark {
+        background: #101010;
+    }
+}

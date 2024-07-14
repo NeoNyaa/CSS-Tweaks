@@ -1,0 +1,19 @@
+/* ==UserStyle==
+@name           Artstation.com - Unblur Mature Content
+@namespace      github.com/openstyles/stylus
+@version        1.1.1
+@description    Removed the blur on mature content and removes the "MATURE CONTENT" text
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("artstation.com") {
+    .img-blur {
+        -webkit-filter: none;
+        filter: none;
+    }
+
+    .mature-content-label {
+        display: none
+    }
+}

@@ -1,0 +1,3 @@
+[class^="textArea"] + [class^="buttons"] > button[class*="lookBlank"] {
+	display: none !important;
+}

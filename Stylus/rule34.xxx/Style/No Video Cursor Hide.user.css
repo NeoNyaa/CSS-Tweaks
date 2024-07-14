@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Rule34.xxx - No Video Cursor Hide
+@namespace      github.com/openstyles/stylus
+@version        1.4.1
+@description    Prevents the video player hiding the cursor when hovering over the video itself
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document regexp("(http|https)://rule34.xxx/index.php\?page=post&s=view.*") {
+    #gelcomVideoPlayer {
+        cursor: default !important;
+    }
+}

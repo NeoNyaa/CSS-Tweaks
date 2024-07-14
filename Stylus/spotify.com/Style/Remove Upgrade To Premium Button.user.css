@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Spotify.com - Remove Upgrade To Premium Button
+@namespace      github.com/openstyles/stylus
+@version        1.6.1
+@description    Removes the upgrade button from the bar atop the page and from the profile picture dropdown menu.
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+
+@-moz-document domain("open.spotify.com") {
+    [title="Upgrade to Premium"],
+    [aria-label="Upgrade to Premium"],
+    [href*="https://www.spotify.com/premium/"] {
+        display: none;
+    }
+}

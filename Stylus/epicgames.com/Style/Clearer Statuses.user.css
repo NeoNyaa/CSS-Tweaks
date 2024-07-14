@@ -1,0 +1,30 @@
+/* ==UserStyle==
+@name			Epicgames.com - Clearer Statuses
+@namespace		github.com/openstyles/stylus
+@version		1.0.1
+@description	Makes the server statuses on status.epicgames.com more obvious making a quick glance help in determining if they are up or down.
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("status.epicgames.com") {
+	.component-inner-container {
+		padding: 0 10px;
+	}
+
+	.status-green {
+	    background: #0f03;
+	}
+
+	.status-blue {
+	    background: #00f3;
+	}
+
+	.status-yellow {
+	    background: #f903;
+	}
+
+	.status-red {
+	    background: #f003;
+	}
+}

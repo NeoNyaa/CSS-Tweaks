@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name           Rule34.xxx - Padded Sidebar
+@namespace      github.com/openstyles/stylus
+@version        1.5.1
+@description    Adds some padding to the sidebar to make it look a little neater.
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("rule34.xxx") {
+    .sidebar {
+        padding: 4px;
+    }
+}

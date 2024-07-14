@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name			Youtube.com - Hide Playables On Homepage
+@namespace		github.com/openstyles/stylus
+@version		1.0.2
+@description	Hides the playables section on the YouTube recommended page
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document regexp("(http|https)://www.youtube.com/") {
+	ytd-rich-section-renderer:has(> #content > ytd-rich-shelf-renderer > #dismissible > #rich-shelf-header-container > #rich-shelf-header > h2 > #image-container > a[href="/playables"]) {
+		display: none;
+	}
+}

@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name			Discord.com - Support Button Hider
+@namespace		github.com/openstyles/stylus
+@version		1.0.2
+@description	Removes the support button near the search bar.
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("discord.com") {
+	[href="https://support.discord.com"] {
+		display: none;
+	}
+}

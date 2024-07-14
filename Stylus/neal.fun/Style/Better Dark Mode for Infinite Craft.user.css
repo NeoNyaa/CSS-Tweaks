@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name			neal.fun - Better Dark Mode for Infinite Craft
+@namespace		github.com/openstyles/stylus
+@version		1.0.1
+@description	Makes the dark mode less dark on infinite craft
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document regexp("(http|https)://neal.fun/infinite-craft.*") {
+	:root .dark-mode {
+		--border-color: #777 !important;
+  		--item-bg: #303030 !important;
+  		--instance-bg: #404040 !important;
+  		--instance-bg-hover: #404040 !important;
+  		--instance-border: #777 !important;
+  		--instance-border-hover: #fff !important;
+  		--sidebar-bg: #303030 !important;
+  		--background-color: #252525 !important;
+  		--discoveries-bg-active: #555 !important;
+  		--text-color: #fff;
+	}
+
+	.dark-mode .sidebar-controls:After {
+		background: linear-gradient(180deg,transparent,#0004) !important;
+	}
+
+	.container.dark-mode [src*=".svg"]:not(.side-controls > img, .side-controls > a > img) {
+		filter: invert(1)
+	}
+}

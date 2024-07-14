@@ -1,0 +1,8 @@
+[class*="messageContent_"]:not([class*="isSystemMessage_"]) a:hover > span:not([class^="username_"]) {
+    display: none;
+}
+
+[class*="messageContent_"]:not([class*="isSystemMessage_"]) a:hover::before {
+    word-break: break-all;
+    content: attr(href);
+}

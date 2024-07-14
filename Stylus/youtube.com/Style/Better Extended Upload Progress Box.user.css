@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name			Youtube.com - Better Extended Multi Upload Progress Box
+@namespace		github.com/openstyles/stylus
+@version		1.2.1
+@description	Removes the limit on the box which shows each videos upload progress to show all videos when extended.
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("studio.youtube.com") {
+	#progress-list.ytcp-multi-progress-monitor,
+	#dialog.ytcp-multi-progress-monitor {
+		height: fit-content;
+    	max-height: fit-content;
+	}
+}

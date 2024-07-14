@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name			Spotify.com - Fixed Collection Scroll Headers
+@namespace		github.com/openstyles/stylus
+@version		1.2.1
+@description	Fixes the missaligned title of an album or playlist when scrolling down
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("open.spotify.com") {
+	.G7zO58ORUHxcUw0sXktM {
+		margin: 4px 0 0 -1px !important;
+	}
+}

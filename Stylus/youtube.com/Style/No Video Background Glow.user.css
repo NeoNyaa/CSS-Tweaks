@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name			Youtube.com - No Video Background Glow
+@namespace		github.com/openstyles/stylus
+@version		1.0.2
+@description	Removes the "cinematic" effect which adds a glow behind the video using colors within the video content.
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://gitlab.com/___Neopolitan/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+	#cinematics {
+		display: none !important;
+	}
+}
