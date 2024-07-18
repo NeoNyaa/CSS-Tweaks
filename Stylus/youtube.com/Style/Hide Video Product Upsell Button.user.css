@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name			Youtube.com - Hide Video Product Upsell Button
+@namespace		github.com/openstyles/stylus
+@version		1.0.0
+@description	Hides the button from the video which indicates that products can be purchased.
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+	.ytp-suggested-action:has(.ytp-suggested-action-product-thumbnail) > * {
+		display: none;
+	}
+}
