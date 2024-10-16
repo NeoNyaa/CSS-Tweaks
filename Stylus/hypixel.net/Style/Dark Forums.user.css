@@ -1,0 +1,66 @@
+/* ==UserStyle==
+@name			Dark Forums
+@namespace		github.com/openstyles/stylus
+@version		1.0.0
+@description	A dark theme for forum posts and comments.
+@author			neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document url-prefix("https://hypixel.net/thread")
+{
+	.notice.notice--accent {
+		color: hsl(24, 50%, 55%);
+		background: hsl(0, 0%, 6%);
+	}
+
+	.block--messages .message,
+	.block--messages .block-row {
+		background: hsl(0, 0%, 6%);
+		color: hsl(0, 0%, 80%);
+	}
+
+	.message-articleUserInfo,
+	.message-cell.message-cell--user,
+	.message-cell.message-cell--action {
+		background: hsl(0, 0%, 0%);
+	}
+
+	.rank-badge {
+		background: hsl(0, 0%, 13%);
+		outline: solid 1px hsl(0, 0%, 33%);
+		display: inline-block;
+	}
+
+	.message-userDetails .message-userDetails-block {
+		border: 1px solid hsl(0, 0%, 33%);
+	}
+
+	.message-signature,
+	.message-cell.message-cell--user,
+	.message-cell.message-cell--action,
+	.block--messages .message,
+	.block--messages .block-row,
+	.message-attribution {
+		border-color: hsl(0, 0%, 33%);
+	}
+
+	.message-articleUserInfo a,
+	.message-cell.message-cell--user a,
+	.message-cell.message-cell--action a,
+	article a {
+		color: hsl(25, 58%, 40%);
+	}
+
+	.p-body-before,
+	.p-body-inner,
+	.p-body-main {
+		filter: invert(1) hue-rotate(180deg);
+	}
+
+	.bbCodeInline {
+		background: hsl(0, 0%, 13%);
+		border-color: hsl(0, 0%, 33%);
+		color: hsl(0, 0%, 100%);
+	}
+}
