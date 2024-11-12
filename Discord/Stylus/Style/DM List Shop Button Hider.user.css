@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name			Discord.com - DM List Shop Button Hider
 @namespace		github.com/openstyles/stylus
-@version		1.0.3
+@version		1.0.4
 @description	Removes the shop button above the list of open DMs
 @author			neo.nyaa (https://discord.com/users/427114049487241227)
 @homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-	[class^="link__"][href="/shop"] {
+	[href="/shop"] {
 		display: none;
 	}
 }
