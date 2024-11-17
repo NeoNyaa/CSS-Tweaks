@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name           Deliveroo.co.uk - Basket Junk Hider
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Removes the "People also added" and "Donate to charity" sections from the deliveroo basket
+@author         neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("deliveroo.co.uk") {
+	/* Remove the donate to charity section */
+	[class^="BasketContent"] > [class^="ccl"] > [class^="UIListSection"]:has([class^="UICharityDonation"]) {
+	    display: none;
+	}
+
+	/* Remove the people also added section */
+	[class^="BasketContent"] > [class^="ccl"] > [class^="UIListSection"] > [class^="UIListSection"] > [class^="ccl"]:has([class^="Carousel"]) {
+	    display: none;
+	}
+}
