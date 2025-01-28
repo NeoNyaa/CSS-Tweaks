@@ -1,11 +1,11 @@
 {
-    "files.trimTrailingWhitespace": true,
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false,
-    },
-    "files.associations": {
-        "*.user.css": "stylus"
-    },
-    "editor.tabSize": 4,
-    "editor.insertSpaces": false
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false,
+  },
+  "files.associations": {
+    "*.user.css": "stylus"
+  },
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true
 }
