@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name           Deliveroo.co.uk - Sponsor Hider
 @namespace      github.com/openstyles/stylus
-@version        1.0.1
+@version        1.0.2
 @description    Hides the sponsors on the order tracking page
 @author         neo.nyaa (https://discord.com/users/427114049487241227)
 @homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document url-prefix("") {
+@-moz-document url-prefix("https://deliveroo.co.uk/orders/") {
   [class*="withAdTracking-"] {
     display: none;
   }
