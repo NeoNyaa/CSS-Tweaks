@@ -1,66 +1,182 @@
 /* ==UserStyle==
-@name			Dark Forums
-@namespace		github.com/openstyles/stylus
-@version		1.0.0
-@description	A dark theme for forum posts and comments.
-@author			neo.nyaa (https://discord.com/users/427114049487241227)
-@homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
+@name         Hypixel.net - Dark Forums
+@namespace    github.com/openstyles/stylus
+@version      1.1.0
+@description  A dark theme for forum posts and comments.
+@author       neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL  https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://hypixel.net/thread")
-{
-	.notice.notice--accent {
-		color: hsl(24, 50%, 55%);
-		background: hsl(0, 0%, 6%);
-	}
+@-moz-document url-prefix("https://hypixel.net/thread"), url-prefix("https://hypixel.net/forums") {
+  :root {
+    --accent: hsl(25, 58%, 40%);
+    --text: hsl(0, 0%, 80%);
+    --border: hsl(0, 0%, 33%);
+    --primary-background: hsl(0, 0%, 6%);
+    --secondary-background: hsl(0, 0%, 12%);
+    --tertiary-background: hsl(0, 0%, 18%);
+  }
 
-	.block--messages .message,
-	.block--messages .block-row {
-		background: hsl(0, 0%, 6%);
-		color: hsl(0, 0%, 80%);
-	}
+  .message-articleUserInfo a,
+  .message-cell.message-cell--user a,
+  .message-cell.message-cell--action a,
+  article a,
+  .button.button--link,
+  a.button.button--link,
+  .pageNav-jump,
+  .pageNav-jump:hover,
+  .pageNav-jump:active,
+  .pageNav-page,
+  .pageNav-page:hover,
+  .pageNav-page:active,
+  .pageNav-page.pageNav-page--current,
+  a,
+  .block-filterBar .filterBar-filterToggle:hover,
+  .block-filterBar .filterBar-menuTrigger:hover {
+    color: var(--accent);
+  }
 
-	.message-articleUserInfo,
-	.message-cell.message-cell--user,
-	.message-cell.message-cell--action {
-		background: hsl(0, 0%, 0%);
-	}
+  .block--messages .message,
+  .block--messages .block-row,
+  .bbCodeBlock-title,
+  .bbCodeInline,
+  .sv-rating__count,
+  .tooltip--sv-rate .tooltip-content,
+  .block-container,
+  .block-header,
+  .block-filterBar,
+  .button.is-disabled,
+  a.button.is-disabled {
+    color: var(--text);
+  }
 
-	.rank-badge {
-		background: hsl(0, 0%, 13%);
-		outline: solid 1px hsl(0, 0%, 33%);
-		display: inline-block;
-	}
+  .notice.notice--accent,
+  .block--messages .message,
+  .block--messages .block-row,
+  .message-articleUserInfo,
+  .message-cell.message-cell--user,
+  .message-cell.message-cell--action,
+  .block-container,
+  .block-header,
+  .block-filterBar,
+  .button.is-disabled,
+  a.button.is-disabled {
+    background: var(--primary-background);
+  }
 
-	.message-userDetails .message-userDetails-block {
-		border: 1px solid hsl(0, 0%, 33%);
-	}
+  .bbCodeInline,
+  .bbCodeBlock-title,
+  .rank-badge,
+  .button.button--link,
+  a.button.button--link,
+  .pageNav-jump,
+  .pageNav-page,
+  .sv-rating,
+  .sv-rating__count,
+  .tooltip--sv-rate .tooltip-content {
+    background: var(--secondary-background);
+  }
 
-	.message-signature,
-	.message-cell.message-cell--user,
-	.message-cell.message-cell--action,
-	.block--messages .message,
-	.block--messages .block-row,
-	.message-attribution {
-		border-color: hsl(0, 0%, 33%);
-	}
+  .bbCodeBlock-content,
+  .button.button--link:hover,
+  a.button.button--link:hover,
+  .button.button--link:active,
+  a.button.button--link:active,
+  .button.button--link:focus,
+  a.button.button--link:focus,
+  .pageNav-jump:hover,
+  .pageNav-jump:active,
+  .pageNav-page:hover,
+  .pageNav-page:active,
+  .pageNav-page.pageNav-page--current,
+  .block-filterBar .filterBar-filterToggle:hover,
+  .block-filterBar .filterBar-menuTrigger:hover,
+  .pageNav-page.pageNav-page--current:hover,
+  .pageNav-page.pageNav-page--current:active {
+    background: var(--tertiary-background);
+  }
 
-	.message-articleUserInfo a,
-	.message-cell.message-cell--user a,
-	.message-cell.message-cell--action a,
-	article a {
-		color: hsl(25, 58%, 40%);
-	}
+  .message-signature,
+  .message-cell.message-cell--user,
+  .message-cell.message-cell--action,
+  .block--messages .message,
+  .block--messages .block-row,
+  .message-attribution,
+  .bbCodeBlock,
+  .message-articleUserInfo,
+  .bbCodeInline,
+  .message-userDetails .message-userDetails-block,
+  .button.button--link,
+  a.button.button--link,
+  .pageNav-jump,
+  .pageNav-page,
+  .pageNav-page:not(:first-child),
+  .sv-rating,
+  .sv-rating__count,
+  .tooltip--sv-rate .tooltip-content,
+  .block-container,
+  .block-header,
+  .block-filterBar,
+  .structItem,
+  .pageNav-page.pageNav-page--current:hover,
+  .pageNav-page.pageNav-page--current:active,
+  .button.is-disabled,
+  a.button.is-disabled {
+    border-color: var(--border);
+  }
 
-	.p-body-before,
-	.p-body-inner,
-	.p-body-main {
-		filter: invert(1) hue-rotate(180deg);
-	}
+  /*
+    If you can find what this hides withoutlooking
+    at the code feel free to improve the below snippet.
+    Otherwise, what is hidden is obviously not of importance to you.
+  */
+  .message-userArrow {
+    display: none;
+  }
 
-	.bbCodeInline {
-		background: hsl(0, 0%, 13%);
-		border-color: hsl(0, 0%, 33%);
-		color: hsl(0, 0%, 100%);
-	}
+  /* Add a border to the guild rank badge */
+  .rank-badge {
+    outline: solid 1px var(--border);
+  }
+
+  /* Fix the codeblock quote reply losing its left orange border */
+  .bbCodeBlock {
+    border-left-color: var(--accent);
+  }
+
+  /*
+    The main background is made by an image which has alot of white
+    this code inverts the colors and then hue rotates them again
+    to invert the white but leave the colors as they once were
+  */
+  .p-body-main,
+  .p-body-before,
+  .p-body-inner,
+  .p-body-after {
+    filter: invert(1) hue-rotate(180deg);
+  }
+
+  /*
+    Fixes text color being black due to incompetent forum
+    posters changing the text color from automatic to black
+  */
+  [style*="color: rgb(0, 0, 0)"] {
+    color: var(--text) !important;
+  }
+
+  /* Disabled button background hover needed an important */
+  .button.is-disabled:hover,
+  a.button.is-disabled:hover,
+  .button.is-disabled:active,
+  a.button.is-disabled:active,
+  .button.is-disabled:focus,
+  a.button.is-disabled:focus {
+    background: var(--primary-background) !important;
+  }
+
+  /* Expand message fade */
+  .message-expandLink,
+  .bbCodeBlock-expandLink {
+    background: linear-gradient(to bottom, transparent 0%, hsla(0, 0%, 6%, 100%) 100%);
+  }
 }
