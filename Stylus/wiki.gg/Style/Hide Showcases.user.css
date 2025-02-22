@@ -1,0 +1,14 @@
+/* ==UserStyle==
+@name         Wiki.gg - Hide Showcases
+@namespace    github.com/openstyles/stylus
+@version      1.0.0
+@description  Hides the showcases/advertisements on wiki.gg
+@author       neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL  https://github.com/NeoNyaa/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("wiki.gg") {
+  .wikigg-showcase__unit {
+    display: none !important;
+  }
+}
