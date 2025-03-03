@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name         Darkreader.org - Hide Junk
+@namespace    github.com/openstyles/stylus
+@version      1.0.0
+@description  Hides the junk (advert and payment elements) present on the dark reader website.
+@author       neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL  https://github.com/NeoNyaa/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("darkreader.org") {
+  .page-grid-side,
+  .page-grid-left,
+  darkreader-pay-tiers {
+    display: none !important;
+  }
+}
