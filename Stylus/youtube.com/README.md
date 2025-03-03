@@ -9,4 +9,5 @@ Each style contains a brief description of its function. If you are unsure as to
 [Install "Hide Playables On Homepage.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Playables%20On%20Homepage.user.css)  
 [Install "Hide Shorts On Homepage.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Shorts%20On%20Homepage.user.css)  
 [Install "Hide Mixes.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Mixes.user.css)  
-[Install "Hide Video Product Upsell Button.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Video%20Product%20Upsell%20Button.user.css)
+[Install "Hide Video Product Upsell Button.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Video%20Product%20Upsell%20Button.user.css)  
+[Install "No Progress Gradient.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/No%20Progress%20Gradient.user.css)
