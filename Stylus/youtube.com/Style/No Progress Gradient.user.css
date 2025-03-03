@@ -1,14 +1,18 @@
 /* ==UserStyle==
 @name         Youtube.com - No Progress Gradient
 @namespace    github.com/openstyles/stylus
-@version      1.0.0
+@version      1.1.0
 @description  Removes the gradient and restores the solid red progress bar on the video player
 @author       neo.nyaa (https://discord.com/users/427114049487241227)
 @homepageURL  https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("www.youtube.com") {
-  .ytp-play-progress {
-    background: red;
+  .ytp-play-progress,
+  .ytp-swatch-background-color,
+  .ytProgressBarPlayheadProgressBarPlayheadDot,
+  #progress.ytd-thumbnail-overlay-resume-playback-renderer,
+  .ytProgressBarLineProgressBarPlayed {
+    background: red !important;
   }
 }
