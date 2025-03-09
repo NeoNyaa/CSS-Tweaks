@@ -1,5 +1,5 @@
 /* ==UserStyle==
-@name         Hypixel.net - Dark Forums
+@name         Hypixel.net - Dark threads
 @namespace    github.com/openstyles/stylus
 @version      1.1.0
 @description  A dark theme for forum posts and comments.
@@ -7,93 +7,70 @@
 @homepageURL  https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document url-prefix("https://hypixel.net/thread"), url-prefix("https://hypixel.net/forums") {
+@-moz-document url-prefix("https://hypixel.net/threads/") {
   :root {
+    --background-primary: hsl(0, 0%, 5%);
+    --background-secondary: hsl(0, 0%, 10%);
+    --background-tertiary: hsl(0, 0%, 15%);
+    --border: hsl(0, 0%, 20%);
     --accent: hsl(25, 58%, 40%);
     --text: hsl(0, 0%, 80%);
-    --border: hsl(0, 0%, 33%);
-    --primary-background: hsl(0, 0%, 6%);
-    --secondary-background: hsl(0, 0%, 12%);
-    --tertiary-background: hsl(0, 0%, 18%);
   }
 
-  .message-articleUserInfo a,
-  .message-cell.message-cell--user a,
-  .message-cell.message-cell--action a,
-  article a,
-  .button.button--link,
-  a.button.button--link,
-  .pageNav-jump,
-  .pageNav-jump:hover,
-  .pageNav-jump:active,
-  .pageNav-page,
-  .pageNav-page:hover,
-  .pageNav-page:active,
-  .pageNav-page.pageNav-page--current,
-  a,
-  .block-filterBar .filterBar-filterToggle:hover,
-  .block-filterBar .filterBar-menuTrigger:hover {
-    color: var(--accent);
-  }
-
-  .block--messages .message,
-  .block--messages .block-row,
-  .bbCodeBlock-title,
-  .bbCodeInline,
-  .sv-rating__count,
-  .tooltip--sv-rate .tooltip-content,
-  .block-container,
-  .block-header,
-  .block-filterBar,
-  .button.is-disabled,
-  a.button.is-disabled {
-    color: var(--text);
-  }
-
-  .notice.notice--accent,
-  .block--messages .message,
-  .block--messages .block-row,
   .message-articleUserInfo,
   .message-cell.message-cell--user,
   .message-cell.message-cell--action,
-  .block-container,
+  .notice.notice--accent,
   .block-header,
-  .block-filterBar,
-  .button.is-disabled,
-  a.button.is-disabled {
-    background: var(--primary-background);
-  }
-
-  .bbCodeInline,
-  .bbCodeBlock-title,
-  .rank-badge,
-  .button.button--link,
-  a.button.button--link,
   .pageNav-jump,
   .pageNav-page,
-  .sv-rating,
-  .sv-rating__count,
-  .tooltip--sv-rate .tooltip-content {
-    background: var(--secondary-background);
+  .button.button--link,
+  a.button.button--link,
+  .bbTable>table>thead>tr>th,
+  .bbTable>table>tbody>tr>th {
+    background: var(--background-primary);
   }
 
-  .bbCodeBlock-content,
+  .block--messages .message,
+  .block--messages .block-row,
+  .block-container,
+  .pageNav-jump:hover,
+  .pageNav-page:hover,
+  .pageNav-page.pageNav-page--current,
+  .button.button--link:hover,
+  a.button.button--link:hover,
+  .bbCodeBlock-title {
+    background: var(--background-secondary);
+  }
+
+  .rank-badge,
+  .bbCodeInline,
+  .bbCodeBlock,
+  .sv-rating,
+  .sv-rating__count,
+  .pageNav-jump:hover,
+  .pageNav-page:hover,
+  .tooltip--sv-rate .tooltip-content,
   .button.button--link:hover,
   a.button.button--link:hover,
   .button.button--link:active,
   a.button.button--link:active,
   .button.button--link:focus,
   a.button.button--link:focus,
-  .pageNav-jump:hover,
-  .pageNav-jump:active,
-  .pageNav-page:hover,
-  .pageNav-page:active,
-  .pageNav-page.pageNav-page--current,
-  .block-filterBar .filterBar-filterToggle:hover,
-  .block-filterBar .filterBar-menuTrigger:hover,
-  .pageNav-page.pageNav-page--current:hover,
-  .pageNav-page.pageNav-page--current:active {
-    background: var(--tertiary-background);
+  .bbTable>table>thead>tr>td,
+  .bbTable>table>tbody>tr>td {
+    background: var(--background-tertiary);
+  }
+
+  .block--messages .message,
+  .block--messages .block-row,
+  .bbCodeBlock,
+  .bbCodeInline,
+  .bbCodeBlock-title,
+  .block-container,
+  .block-header,
+  .sv-rating__count {
+    color: var(--text);
   }
 
   .message-signature,
@@ -102,81 +79,69 @@
   .block--messages .message,
   .block--messages .block-row,
   .message-attribution,
-  .bbCodeBlock,
-  .message-articleUserInfo,
   .bbCodeInline,
-  .message-userDetails .message-userDetails-block,
-  .button.button--link,
-  a.button.button--link,
-  .pageNav-jump,
-  .pageNav-page,
-  .pageNav-page:not(:first-child),
-  .sv-rating,
-  .sv-rating__count,
-  .tooltip--sv-rate .tooltip-content,
+  .bbCodeBlock,
   .block-container,
   .block-header,
-  .block-filterBar,
   .structItem,
-  .pageNav-page.pageNav-page--current:hover,
-  .pageNav-page.pageNav-page--current:active,
-  .button.is-disabled,
-  a.button.is-disabled {
-    border-color: var(--border);
+  .sv-rating,
+  .pageNav-jump,
+  .pageNav-page,
+  .pageNav-page:hover,
+  .message-articleUserInfo,
+  .button.button--link,
+  a.button.button--link,
+  .tooltip--sv-rate .tooltip-content,
+  .bbTable>table>thead>tr>th,
+  .bbTable>table>tbody>tr>th,
+  .bbTable>table>thead>tr>td,
+  .bbTable>table>tbody>tr>td {
+    border-color: var(--border) !important;
   }
 
-  /*
-    If you can find what this hides withoutlooking
-    at the code feel free to improve the below snippet.
-    Otherwise, what is hidden is obviously not of importance to you.
-  */
-  .message-userArrow {
-    display: none;
+  .message-articleUserInfo a,
+  .message-cell.message-cell--user a,
+  .message-cell.message-cell--action a,
+  article a,
+  .notice.notice--accent,
+  .structItem-title a,
+  .structItem-latestDate,
+  .pageNav-page.pageNav-page--current,
+  .pageNav-jump,
+  .pageNav-jump:hover,
+  .pageNav-page,
+  .pageNav-page:hover,
+  .button.button--link,
+  a.button.button--link {
+    color: var(--accent) !important;
   }
 
-  /* Add a border to the guild rank badge */
-  .rank-badge {
-    outline: solid 1px var(--border);
+  .message-userDetails .message-userDetails-block {
+    border: 1px solid var(--border);
   }
 
-  /* Fix the codeblock quote reply losing its left orange border */
-  .bbCodeBlock {
-    border-left-color: var(--accent);
-  }
-
-  /*
-    The main background is made by an image which has alot of white
-    this code inverts the colors and then hue rotates them again
-    to invert the white but leave the colors as they once were
-  */
-  .p-body-main,
   .p-body-before,
   .p-body-inner,
+  .p-body-main,
   .p-body-after {
     filter: invert(1) hue-rotate(180deg);
   }
 
-  /*
-    Fixes text color being black due to incompetent forum
-    posters changing the text color from automatic to black
-  */
-  [style*="color: rgb(0, 0, 0)"] {
+  /* Fix black text due to people not knowing how to use the forum editor */
+  [style*="color: rgb(0, 0, 0)"],
+  [style*="color: initial"] {
     color: var(--text) !important;
   }
 
-  /* Disabled button background hover needed an important */
-  .button.is-disabled:hover,
-  a.button.is-disabled:hover,
-  .button.is-disabled:active,
-  a.button.is-disabled:active,
-  .button.is-disabled:focus,
-  a.button.is-disabled:focus {
-    background: var(--primary-background) !important;
+  .bbCodeBlock {
+    border-left-color: var(--accent) !important;
   }
 
-  /* Expand message fade */
-  .message-expandLink,
+  .message-userArrow {
+    display: none;
+  }
+
   .bbCodeBlock-expandLink {
-    background: linear-gradient(to bottom, transparent 0%, hsla(0, 0%, 6%, 100%) 100%);
+    background: linear-gradient(to bottom, transparent 0%, var(--background-tertiary) 80%);
   }
 }
