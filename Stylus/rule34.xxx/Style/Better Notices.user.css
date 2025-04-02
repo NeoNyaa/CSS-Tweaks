@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name         Rule34.xxx - Better Notices
 @namespace    github.com/openstyles/stylus
-@version      1.0.0
+@version      1.0.1
 @description  Improves the notices by making them a staticly positioned, centered element while giving them a background.
 @author       neo.nyaa (https://discord.com/users/427114049487241227)
 @homepageURL  https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
-@-moz-document domain("") {
+@-moz-document domain("rule34.xxx") {
   #notice {
     position: fixed;
     left: 50%;
