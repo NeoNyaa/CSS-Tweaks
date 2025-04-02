@@ -10,4 +10,5 @@ Each style contains a brief description of its function. If you are unsure as to
 [Install "Dark Theme Dot Fix.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/rule34.xxx/Style/Dark%20Theme%20Dot%20Fix.user.css)  
 [Install "Better Upload Forms.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/rule34.xxx/Style/Better%20Upload%20Forms.user.css)  
 [Install "Junk Free Homepage.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/rule34.xxx/Style/Junk%20Free%20Homepage.user.css)  
-[Install "No Video Cursor Hide.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/rule34.xxx/Style/No%20Video%20Cursor%20Hide.user.css)
+[Install "No Video Cursor Hide.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/rule34.xxx/Style/No%20Video%20Cursor%20Hide.user.css)  
+[Install "Better Notices.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/rule34.xxx/Style/Better%20Notices.user.css)
