@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name         YouTube.com - Hide Hover Glow On Home Feed
+@namespace    github.com/openstyles/stylus
+@version      1.0.0
+@description  Hides the glow behind videos when hovering over them in the feed.
+@author       neo.nyaa (https://discord.com/users/427114049487241227)
+@homepageURL  https://github.com/NeoNyaa/CSS-Tweaks
+==/UserStyle== */
+
+@-moz-document domain("www.youtube.com") {
+  ytd-rich-item-renderer {
+    background-color: unset !important;
+    box-shadow: unset !important;
+  }
+}

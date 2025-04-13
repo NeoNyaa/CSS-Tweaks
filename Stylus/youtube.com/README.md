@@ -11,4 +11,5 @@ Each style contains a brief description of its function. If you are unsure as to
 [Install "Hide Mixes.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Mixes.user.css)  
 [Install "Hide Video Product Upsell Button.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Video%20Product%20Upsell%20Button.user.css)  
 [Install "No Progress Gradient.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/No%20Progress%20Gradient.user.css)  
-[Install "Hide Member Only Videos In Home Feed.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Member%20Only%20Videos%20In%20Home%20Feed.user.css)
+[Install "Hide Member Only Videos In Home Feed.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Member%20Only%20Videos%20In%20Home%20Feed.user.css)  
+[Install "Hide Hover Glow On Home Feed.user.css" for Stylus](https://github.com/NeoNyaa/CSS-Tweaks/raw/main/Stylus/youtube.com/Style/Hide%20Hover%20Glow%20On%20Home%20Feed.user.css)
