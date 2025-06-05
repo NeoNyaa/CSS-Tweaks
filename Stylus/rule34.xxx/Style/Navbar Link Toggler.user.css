@@ -7,117 +7,103 @@
 @homepageURL    https://github.com/NeoNyaa/CSS-Tweaks
 
 @preprocessor stylus
-@var checkbox myAccount "Hide the \"My Account\" link: " 0
-@var checkbox posts "Hide the \"Posts\" link: " 0
-@var checkbox comments "Hide the \"Comments\" link: " 0
-@var checkbox wiki "Hide the \"Wiki\" link: " 0
-@var checkbox aliases "Hide the \"Aliases\" link: " 0
-@var checkbox artists "Hide the \"Artists\" link: " 0
-@var checkbox tags "Hide the \"Tags\" link: " 0
-@var checkbox pools "Hide the \"Pools\" link: " 0
-@var checkbox forum "Hide the \"Forum\" link: " 0
-@var checkbox stats "Hide the \"Stats\" link: " 0
-@var checkbox gottaSmashEmAll "Hide the \"Gotta smash 'em all\" link: " 0
-@var checkbox iCameTop100 "Hide the \"iCame Top 100\" link: " 0
-@var checkbox help "Hide the \"Help\" link: " 0
-@var checkbox discordChat "Hide the \"Discord Chat\" link: " 0
-@var checkbox store "Hide the \"Store\" link: " 0
-@var checkbox otherSites "Hide the \"Other Sites\" link: " 0
+@var checkbox myAccount-Link "Hide the \"My Account\" link: " 0
+@var checkbox posts-Link "Hide the \"Posts\" link: " 0
+@var checkbox comments-Link "Hide the \"Comments\" link: " 0
+@var checkbox wiki-Link "Hide the \"Wiki\" link: " 0
+@var checkbox aliases-Link "Hide the \"Aliases\" link: " 0
+@var checkbox artists-Link "Hide the \"Artists\" link: " 0
+@var checkbox tags-Link "Hide the \"Tags\" link: " 0
+@var checkbox pools-Link "Hide the \"Pools\" link: " 0
+@var checkbox forum-Link "Hide the \"Forum\" link: " 0
+@var checkbox iCameTop100-Link "Hide the \"iCame Top 100\" link: " 0
+@var checkbox help-Link "Hide the \"Help\" link: " 0
+@var checkbox discordChat-Link "Hide the \"Discord Chat\" link: " 0
+@var checkbox aiJerkOff-Link "Hide the \"AI Jerk Off\" link: " 0
+@var checkbox otherSites-Link "Hide the \"Other Sites\" link: " 0
 ==/UserStyle== */
 
 @-moz-document domain("rule34.xxx") {
-	if myAccount {
-		#navbar > li:nth-child(1) {
+	if myAccount-Link {
+		#navbar > li:has(a[href*='?page=account&s=home']) {
 			display: none !important;
 		}
 	}
 
-	if posts {
-		#navbar > li:nth-child(2) {
+	if posts-Link {
+		#navbar > li:has(a[href*='?page=post&s=list&tags=all']) {
 			display: none !important;
 		}
 	}
 
-	if comments {
-		#navbar > li:nth-child(3) {
+	if comments-Link {
+		#navbar > li:has(a[href*='?page=comment&s=list']) {
 			display: none !important;
 		}
 	}
 
-	if wiki {
-		#navbar > li:nth-child(4) {
+	if wiki-Link {
+		#navbar > li:has(a[href*='?page=wiki&s=list']) {
 			display: none !important;
 		}
 	}
 
-	if aliases {
-		#navbar > li:nth-child(5) {
+	if aliases-Link {
+		#navbar > li:has(a[href*='?page=alias&s=list']) {
 			display: none !important;
 		}
 	}
 
-	if artists {
-		#navbar > li:nth-child(6) {
+	if artists-Link {
+		#navbar > li:has(a[href*='?page=artist&s=list']) {
 			display: none !important;
 		}
 	}
 
-	if tags {
-		#navbar > li:nth-child(7) {
+	if tags-Link {
+		#navbar > li:has(a[href*='?page=tags&s=list']) {
 			display: none !important;
 		}
 	}
 
-	if pools {
-		#navbar > li:nth-child(8) {
+	if pools-Link {
+		#navbar > li:has(a[href*='?page=pool&s=list']) {
 			display: none !important;
 		}
 	}
 
-	if forum {
-		#navbar > li:nth-child(9) {
+	if forum-Link {
+		#navbar > li:has(a[href*='?page=forum&s=list']) {
 			display: none !important;
 		}
 	}
 
-	if stats {
-		#navbar > li:nth-child(10) {
+	if iCameTop100-Link {
+		#navbar > li:has(a[href*='?page=icame']) {
 			display: none !important;
 		}
 	}
 
-	if gottaSmashEmAll {
-		#navbar > li:nth-child(11) {
+	if help-Link {
+		#navbar > li:has(a[href*='?page=help']) {
 			display: none !important;
 		}
 	}
 
-	if iCameTop100 {
-		#navbar > li:nth-child(12) {
+	if discordChat-Link {
+		#navbar > li:has(a[href*='https://discord.gg/rule34xxx']) {
 			display: none !important;
 		}
 	}
 
-	if help {
-		#navbar > li:nth-child(13) {
+  if aiJerkOff-Link {
+		#navbar > li:has(a[href*='tsyndicate.com']) {
 			display: none !important;
 		}
 	}
 
-	if discordChat {
-		#navbar > li:nth-child(14) {
-			display: none !important;
-		}
-	}
-
-	if store {
-		#navbar > li:nth-child(15) {
-			display: none !important;
-		}
-	}
-
-	if otherSites {
-		#navbar > li:nth-child(16) {
+	if otherSites-Link {
+		#navbar > li:has(a[href*='/link.php']) {
 			display: none !important;
 		}
 	}
