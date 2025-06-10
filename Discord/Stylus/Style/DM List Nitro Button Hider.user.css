@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name			Discord.com - DM List Nitro Button Hider
 @namespace		github.com/openstyles/stylus
-@version		1.0.4
+@version		1.0.5
 @description	Removes the nitro button above the list of open DMs
 @author			neo.nyaa (https://discord.com/users/427114049487241227)
 @homepageURL	https://github.com/NeoNyaa/CSS-Tweaks
 ==/UserStyle== */
 
 @-moz-document domain("discord.com") {
-	[href="/store"] {
-		display: none;
-	}
+  li:has([href="/store"]) {
+    display: none;
+  }
 }
